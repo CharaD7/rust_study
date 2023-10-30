@@ -16,13 +16,13 @@ fn main() {
 
     // * Use an if..else if..else block to determine which message to display
     if var_num > 5 {
-        println!("> 5")
+        println!(">5")
     }
     else if var_num < 5 {
-        println!("< 5")
+        println!("<5")
     }
     else {
-        println!("== 5")
+        println!("=5")
     }
     // * Use the println macro to display messages to the terminal
 }
