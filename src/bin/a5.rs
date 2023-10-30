@@ -20,7 +20,7 @@ fn main () {
         println!("{:?}", i);
         i = i + 1;
 
-        if i = 5 {
+        if i == 5 {
             // * Use break to exit the loop
             break;
         }
