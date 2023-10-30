@@ -18,7 +18,7 @@ fn main() {
     let is_male = true;
 
     // * Use an if..else block to determine which message to display
-    if is_male {
+    if is_male == true {
         // * Use the println macro to display messages to the terminal
         println!("hello");
     }
