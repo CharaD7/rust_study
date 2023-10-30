@@ -11,8 +11,10 @@
 // * Use an undersscore (_) to match on any value
 
 fn main () {
+    // * Use a variable set to any integer
     let num_of_oranges = 3;
 
+    // * Use a match expression to determine which message to display
     match num_of_oranges {
         1 => println!("one"),
         2 => println!("two"),
