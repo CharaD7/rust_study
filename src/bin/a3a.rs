@@ -15,15 +15,15 @@
 fn main() {
 
     // * Use a variable set to either true or false
-    let gender = 'M';
+    let is_male = true;
 
     // * Use an if..else block to determine which message to display
-    if gender == 'M' {
+    if is_male {
         // * Use the println macro to display messages to the terminal
-        println!("You are male");
+        println!("hello");
     }
     else {
         // * Use the println macro to display messages to the terminal
-        println!("You are not male")
+        println!("goodbye")
     }
 }
