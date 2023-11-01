@@ -28,7 +28,7 @@ enum Color {
 
 // * Use a function to print the color name
 // * The function must use the enum as a parameter
-fn color_type( color: Color) {
+fn display_color( color: Color) {
     // * Use a match expression to determine which color
     // name to print
     match color {
@@ -49,5 +49,5 @@ fn color_type( color: Color) {
 }
 
 fn main() {
-    let _chosen_color = color_type(Color::Aqua);
+    let _chosen_color = display_color(Color::Aqua);
 }
