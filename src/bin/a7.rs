@@ -49,5 +49,5 @@ fn display_color( color: Color) {
 }
 
 fn main() {
-    let _chosen_color = display_color(Color::Aqua);
+    display_color(Color::Aqua);
 }
