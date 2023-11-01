@@ -24,4 +24,6 @@ fn main() {
         // * Do not use break to exit the loop
     }
 
+    println!("done!");
+
 }
